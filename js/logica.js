@@ -85,7 +85,7 @@ function dibujo() {
     puntajes[0].textContent = `score: ${puntos}`;
 
     for (let i of snake) {
-      console.log(i);
+      
 
       if (i.x == fruta.x && i.y == fruta.y) {
         fruta = new Fruta();
